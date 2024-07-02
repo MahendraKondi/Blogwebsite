@@ -1,0 +1,12 @@
+<h1 style="text-align:center; color:black; padding:10px;">BLOGS</h1>
+
+
+{% for post in post %}
+
+    <h2>{{post.title}}</h2> 
+
+    <p>{{post.data}}</p>
+    
+    <b>{{post.created}}</b>
+
+{% endfor %}
